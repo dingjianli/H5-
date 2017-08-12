@@ -1,0 +1,438 @@
+header{
+	width: 100%;
+	background: #333333;
+	position: relative;
+}
+.top{
+	max-width:1003px;
+	margin: 0 auto;
+}
+.top .logo,.top .nav{
+	float: left;
+}
+.top .logo{
+	width: 17%;
+	padding-top: 11px;
+	padding-left: 10px;
+}
+.top .nav{
+	width: 76.5%;
+	margin-left: 50px;
+}
+.top .nav ul li{
+	width: 12%;
+	float: left;
+	font-size: 12px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+}
+.top .nav ul li a{
+	display: block;
+	color: #f9ffff;
+}
+.top .nav ul li:hover{
+	background: #5c5c5c;
+}
+.top .nav ul li:nth-child(4){
+	background: #5c5c5c;
+}
+.navs{
+	width: 100%;
+	/*position: absolute;
+	right: 9%;
+    top: 42px;
+	z-index: 200000;*/
+	overflow: hidden;
+	background: #C3C3C3;
+	display: none;	
+	padding-left: 10%;
+}
+ .navs ul li a{
+ 	color: #000000;
+ }
+.navs ul li{
+	        float: left;
+            height:30px;
+            width: 20%;
+            line-height:30px;
+            padding-left: 10px;
+           }
+.container{
+	width: 100%;
+	max-width: 1003px;
+	margin: 0 auto;
+	padding-top: 38px;
+}
+.container .left{
+	padding-left: 15px;
+}
+.container .left li{
+	padding-left: 60px;
+	font-size: 22px;
+	width: 65%;
+	height: 80px;
+	overflow: hidden;
+	line-height: 80px;
+	border-bottom: 3px solid #ffffff;	
+}
+.container .left li a{
+	color: #000000;
+}
+
+.container .right h4{
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	font-size: 18px;
+	color: #fa9634;
+	margin-bottom: 10px;
+	
+}
+.container .right p{
+	line-height:30px; 
+	font-size:16px; 
+	font-family: "Microsoft YaHei";
+	text-indent: 32px;
+	}
+
+
+
+	.container .left ul li:nth-child(2){
+		background: url(../img/环艺实习基地-2.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(3){
+		background: url(../img/趣味运动会-2.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(4){
+		background: url(../img/大学生实训.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(5){
+		background: url(../img/话剧表演-2.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(6){
+		background: url(../img/圣诞晚会-2.gif) no-repeat 10px 20px;
+	}
+	
+	.container .left ul li:nth-child(1){
+		background: url(../img/新生军训-2.gif) no-repeat 10px 20px;
+	}
+.container .left li:nth-child(4){
+	border-bottom: 3px solid #FA9634;
+}
+
+
+footer{
+	width: 100%;
+	background: #333333;
+	padding-top: 52px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.bottom{
+	width: 100%;
+	max-width:  1003px;
+	margin: 0 auto;
+}
+.bottom ul li{
+	float: left;
+    color: white;
+    width: 25%;
+}
+.bottom span{
+	display: block;
+	margin-top: 10px;
+	font-family: "Microsoft YaHei";
+}
+.bottom li:nth-child(1) span:nth-child(2){margin-left: 70px;}
+.bottom li:nth-child(3) span:nth-child(2){margin-left: 55px;}
+.bottom li:nth-child(3) span:nth-child(3){margin-left: 55px;}
+
+@media screen and (min-width:1000px ) {	
+	.container .left ul li:nth-child(1):hover{
+		background: url(../img/新生军训.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(2):hover{
+		background: url(../img/环艺实习基地.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(3):hover{
+		background: url(../img/趣味运动会.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(4):hover{
+		background: url(../img/大学生实训.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(5):hover{
+		background: url(../img/话剧表演.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(6):hover{
+		background: url(../img/圣诞晚会.gif) no-repeat 10px 20px;
+	}
+	
+	.container .right{
+     	margin-left: 5%;
+     	float: right;
+     }
+     .container .left,.container .right{
+	float: left;
+    }
+    
+    .container .left{
+	width:26.7% ;
+    border-right: 1px solid #C3C3C3;
+}
+
+.container .left li:hover{
+	border-bottom: 3px solid #FA9634;
+}
+.container .right{
+	width: 65.9%;
+	padding-bottom:141px;
+}
+	.nav_pop,.nav_img{
+	display: none;
+     }
+.bottom ul li{
+	width: 23%;
+}
+.bottom ul li:last-child{
+	width: 27%;
+}
+.bx-wrapper{
+		display: none !important;
+	}
+}
+@media screen and (min-width:721px) and (max-width:1000px ) {
+	.container  .left ul li:nth-child(1){
+		background: url(../img/新生军训-2.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(2){
+		background: url(../img/环艺实习基地-2.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(3){
+		background: url(../img/趣味运动会-2.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(4){
+		background: url(../img/大学生实训.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(5){
+		background: url(../img/话剧表演-2.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(6){
+		background: url(../img/圣诞晚会-2.gif) no-repeat 10px 20px;
+	}
+	
+	.container .left ul li:nth-child(1):hover{
+		background: url(../img/新生军训.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(2):hover{
+		background: url(../img/环艺实习基地.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(3):hover{
+		background: url(../img/趣味运动会.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(4):hover{
+		background: url(../img/大学生实训.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(5):hover{
+		background: url(../img/话剧表演.gif) no-repeat 10px 20px;
+	}
+	.container .left ul li:nth-child(6):hover{
+		background: url(../img/圣诞晚会.gif) no-repeat 10px 20px;
+	}
+	.bx-wrapper{
+		display: none !important;
+	}
+	.container .right{
+	width: 66%;
+	padding-bottom:141px;
+}
+	.container .right{
+     	margin-left: 5%;
+     }
+     .container .left,.container .right{
+	float: left;
+    }
+    .container .left{
+	width:26% ;
+    border-right: 1px solid #C3C3C3;
+}
+
+.container .left li:hover{
+	border-bottom: 3px solid #FA9634;
+}
+	.nav{display: none;}
+	.nav_pop{
+		position: absolute;
+		left: 30%;
+		top: 35%;
+		color:  #F9FFFF;
+	}
+.nav_img{
+		position: absolute;
+		left: 91%;
+		top: 35%;
+		z-index: 10000;
+	}
+.bottom ul li{
+	width: 49%;
+    }
+.bottom{
+	padding-left: 10%;
+} 
+}
+@media screen and (min-width:479px) and (max-width:721px ) {
+	.container .left ul li:nth-child(1){
+		background: url(../img/新生军训-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(2){
+		background: url(../img/环艺实习基地-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(3){
+		background: url(../img/趣味运动会-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(4){
+		background: url(../img/大学生实训.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(5){
+		background: url(../img/话剧表演-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(6){
+		background: url(../img/圣诞晚会-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(1):hover{
+		background: url(../img/新生军训.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(2):hover{
+		background: url(../img/环艺实习基地.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(3):hover{
+		background: url(../img/趣味运动会.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(4):hover{
+		background: url(../img/大学生实训.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(5):hover{
+		background: url(../img/话剧表演.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(6):hover{
+		background: url(../img/圣诞晚会.gif) no-repeat 50% 0px;
+	}
+	.container .right .pgwSlideshow{
+		display: none !important;
+	}
+	.container .left ul li{
+	    padding-left: 0px;
+	    margin-right: 10px;
+    	float: left;
+    	width: 30%;
+    	overflow: hidden;
+    	text-align: center;
+    	padding-top: 15px;
+    	margin-bottom: 20px;
+    	height: 60px;
+    	font-size: 18px;
+    	
+    }
+    .container .left ul{
+     	width: 97%;
+     }
+    .container .right{
+     	margin:0 20px 50px 20px;
+     }
+	.nav{display: none;}
+	.nav_pop{
+		position: absolute;
+		left: 35%;
+		top: 35%;
+		color: #F9FFFF;
+	}
+	.bottom ul li{
+	width: 47%;
+    }
+	.nav_img{
+		position: absolute;
+		left: 91%;
+		top: 35%;
+		z-index: 10000;
+	}
+.bottom{
+	padding-left: 5%;
+}   
+}
+@media screen and (max-width:479px ) {
+	.container .right .pgwSlideshow{
+		display: none !important;
+	}
+	.container .left ul li:nth-child(1){
+		background: url(../img/新生军训-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(2){
+		background: url(../img/环艺实习基地-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(3){
+		background: url(../img/趣味运动会-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(4){
+		background: url(../img/大学生实训.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(5){
+		background: url(../img/话剧表演-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(6){
+		background: url(../img/圣诞晚会-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(1):hover{
+		background: url(../img/新生军训.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(2):hover{
+		background: url(../img/环艺实习基地.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(3){
+		background: url(../img/趣味运动会-2.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(4):hover{
+		background: url(../img/大学生实训.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(5):hover{
+		background: url(../img/话剧表演.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li:nth-child(6):hover{
+		background: url(../img/圣诞晚会.gif) no-repeat 50% 0px;
+	}
+	.container .left ul li{
+		padding-left: 0px;
+		padding-top: 15px;
+		margin-bottom: 10px;
+    	float: left;
+    	width: 35%;
+    	text-align: center;
+    	margin-right: 15px;
+    	height: 60px;
+    	font-size: 18px;
+    }
+    .container .left ul{
+     	padding-left: 10%;
+     	width: 97%;
+     }
+    .container .right{
+     	margin:0 20px 50px 20px;
+     }
+	.nav{display: none;}
+		.nav_pop{
+		position: absolute;
+		left: 40%;
+		top: 35%;
+		color: #F9FFFF;
+	}
+	.nav_img{
+		position: absolute;
+		left: 91%;
+		top: 35%;
+		z-index: 10000;
+	}
+.bottom ul li{
+	width: 80%;
+    }  
+.bottom{
+	padding-left: 20%;
+} 
+}
